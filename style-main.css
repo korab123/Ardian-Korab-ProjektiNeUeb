@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 5000px;
+    height: 100%;
     background-image: url(./vienna-reyes-qCrKTET_09o-unsplash\ 1.png);
     background-repeat: no-repeat;
 }
@@ -88,15 +88,6 @@ body{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-}
-.footer{
-    color: white;
-    background-color: #000;
-    display: flex;
-    position: relative;
-    bottom: 0;
-    margin-top: 4955px;
-    height: 550px;
 }
 .second-box{
     display: flex;
@@ -268,17 +259,280 @@ body{
 
 }
 .fourth-box {
-    
+    background-color: black;
+    color: #FFF;
+    background-image: url(./Group\ 38.png);
     display: flex;
     width: flex;
     height: 957px;
     flex-shrink: 0;
     height: 950px;
+
 }
 .fourth-box img{
-    margin-top: -100px;
-    z-index: 0;
+    height: 90%;
+    margin-top: 5%;
 }
 .above{
-    z-index: 2;
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
 }
+.tdn{
+    color: #D6FF62;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10%;
+    margin-bottom: 35px;
+}
+.above fieldset{
+    width: 928px;
+    height: 276px;
+    flex-shrink: 0;
+    border-radius: 51px;
+    border: 2px solid #D6FF62;
+    margin-left: 5%;
+}
+.above legend{
+    margin-left: 50px;
+    border-radius: 26px;
+    background: #D6FF62;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #000;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.da-news p{
+    width: 738px;
+    height: 200px;
+    flex-shrink: 0;
+    color: #FFF;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+    padding-left:12.5% ;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.benji {
+    width: 25%;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.above button {
+    border-radius: 21px;
+    background: #D6FF62;
+    width: 232px;
+    height: 57px;
+    flex-shrink: 0;
+    margin-left: 90px;
+    margin-top: 47px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.fifth-box {
+    width: 1920px;
+    height: 857px;
+    flex-shrink: 0;
+    background-image:
+    linear-gradient(to right, rgba(214, 255, 98, 1), rgba(214, 255, 98, 0.75)),
+    url(./unsplash_LIhB1_mAGhY.png);
+    
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+}
+.jp {
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+.text-box {
+    width: 743px;
+    height: 145px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-box-sp{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.fifth-box button{
+    display: flex;
+    width: 216px;
+    height: 87px;
+    padding: 43px 66px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 52px;
+    background: #000;
+    color: #D6FF62;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: flex;
+    flex-direction: column;
+    height: 500px;
+    
+  }
+  .footer ul{
+    list-style: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .foot-cont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 82px;
+    margin-right: 82px;
+    margin-top: 30px;
+    justify-content: space-between;
+    border-bottom: #D9D9D9 solid;
+    padding-bottom: 20px;
+  }
+  .infos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 112px;
+    gap: 100px;
+  }
+  .infos p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 18px;
+  }
+  .bottom-tag {
+    margin-top: 45px;
+    margin-left: 82px;
+  }
+  .infos li{
+    padding: 5px;
+  }
+  
+  .logonstuff p:nth-child(2){
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  .tiny{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12.361px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 25px;
+  }
+  .buttons input{
+    width: 273px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background: #FFF;
+    color: #B5B5B5;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 42px;
+  }
+  .buttons button{
+    width: 164px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #D6FF62;
+  }
+  .bottom-tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 82px;
+  }
+  .pol {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+  }
+  .pol p{
+    padding-left: 50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
